@@ -153,6 +153,10 @@ font-weight: 400;
 letter-spacing: 0.02em;
 }
 
+.portfolio {
+background-color: #FFF;
+}
+
 .portfolio-title {
 color: #2E2F42;
 text-align: center;
