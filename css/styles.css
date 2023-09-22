@@ -1,11 +1,10 @@
 html, body {
 margin: 0;
-height: 100%;
 }
 
 body {
 font-family: 'Roboto', sans-serif;
-color: #2E2F42;
+color: #434455;
 background-color:#FFF;
 }
 
@@ -25,18 +24,18 @@ background-color: #FFF;
 .header-navigation {}
 
 .header-logo {
-color: #2E2F42;
+color: #4d5ae5;
 font-family: 'Raleway', sans-serif;
 font-style: normal;
+line-height: 1.17;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 .header-logo-color {
-color: #4D5AE5;
+color: #2e2f42;
 }
 .header-menu-list {}
 
@@ -46,7 +45,6 @@ color: #4D5AE5;
 color: #2E2F42;
 font-size: 16px;
 font-weight: 500;
-line-height: 1;
 letter-spacing: 0.02em;
 }
 
@@ -59,7 +57,6 @@ font-family: 'Roboto';
 font-style: normal;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.5;
 letter-spacing: 0.02em;}
 
 .address-item-tel {
@@ -68,7 +65,6 @@ font-family: 'Roboto';
 font-style: normal;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
@@ -82,7 +78,6 @@ background-color: #2E2F42;
 text-align: center;
 font-size: 56px;
 font-weight: 700;
-line-height: 1.07;
 letter-spacing: 0.02em;
 }
 
@@ -94,23 +89,12 @@ font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.5;
 letter-spacing: 0.04em;
-border-radius: 4px;
 }
 
 .feature {}
 
-.visually-hidden { 
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-overflow: hidden;
-}
+.visually-hidden {}
         
 .feature-list {}
         
@@ -121,7 +105,6 @@ color: #2E2F42;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
@@ -129,7 +112,6 @@ letter-spacing: 0.02em;
 color: #434455;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
@@ -137,10 +119,10 @@ letter-spacing: 0.02em;
 
 .team-subtitle {
 color: #2E2F42;
+background-color: #F4F4FD;
 font-size: 36px;
 text-align: center;
 font-weight: 700;
-line-height: 1.11;
 text-transform: capitalize;
 letter-spacing: 0.02em;
 }
@@ -159,7 +141,6 @@ background: lightgray ;
 color: #2E2F42;
 text-align: center;
 font-size: 20px;
-line-height: 1.2;
 font-weight: 500;
 letter-spacing: 0.02em;
 }
@@ -169,7 +150,6 @@ text-align: center;
 color: #434455;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
@@ -179,7 +159,6 @@ text-align: center;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.11;
 text-transform: capitalize;
 letter-spacing: 0.02em;
 }
@@ -203,14 +182,12 @@ background: lightgray;
 color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
-line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
 .portfolio-desc {
 color: #434455;
 font-size: 16px;
-line-height: 1.5;
 font-weight: 400;
 letter-spacing: 0.02em;
 }
@@ -225,20 +202,20 @@ color: #F4F4FD;
 font-size: 18px;
 font-family: 'Raleway', sans-serif;
 font-style: normal;
-line-height: 1.16;
+line-height: 1.17;
 font-weight: 700;
+line-height: 1.17;
 text-transform: uppercase;
 letter-spacing: 0.03em;
 }
 
 .footer-logo-color {
-color: #4D5AE5;
+color: #f4f4fd;
 }
 
 .footer-text {
 color: #F4F4FD;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.5;
 letter-spacing: 0.02em;
 }
